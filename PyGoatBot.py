@@ -41,7 +41,7 @@ trainer.train(training_data)
 print("Welcome to PyGoatBot!!! Type 'q' or 'exit' to quit.")
 while True:
     try:
-        user_input = input("You: ")
+        user_input = input("You : ")
         if user_input.lower() == "exit" or user_input.lower() == "q":
             break
 
@@ -51,7 +51,7 @@ while True:
 
         while True:
             try:
-                question_index = int(input("Enter a number to select a question: "))
+                question_index = int(input(" Please Enter a number to select a question: "))
                 break
             except ValueError:
                 print("Please enter a valid number.")
